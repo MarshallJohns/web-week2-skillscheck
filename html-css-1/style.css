@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    height: 60px;
+    width: 100vw;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.company {
+    margin-left: 60px;
+    font-size: 30px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.navbar {
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    margin-left: 15px;
+    right: 0;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    color: white;
+
+}
+
+.nav-list li {
+    margin-right: 30px;
+    list-style: none;
+    font-size: 20px;
+}
+
+.nav-list li a, a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+.top {
+    background-color: black;
+    height: vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top p {
+    color: yellow;
+    font-size: 80px;
+    text-transform: uppercase;
+}
+
+.three {
+    
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.squares {
+    background-color: rgb(94, 241, 143);
+    height: 150px;
+    width: 150px;
+    border-radius: 5%;
+} 
+
+.two {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.rectangle {
+    background-color: orange;
+    height: 150px;
+    width: 430px;
+}
+
+.elephant {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.elephant p {
+    height: 150px;
+    width: 300px;
+}
+
+.img {
+    height: 150px;
+    width: 200px;
+}
+
+.bottom {
+    height: 57px;
+    width: 100%;
+    background-color: rgb(49, 42, 61);
+}
